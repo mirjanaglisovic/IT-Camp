@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(219, 200, 200);
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.main {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(43, 185, 228);
+  margin: 50px auto;
+  border: 3px solid black;
+  margin-top: 20px;
+  margin-right: 30px;
+  border-radius: 20px 20px 20px 20px;
+  /* box-shadow: 0px 0px 15px 15px rgb(95, 91, 91); */
+  /* overflow: hidden; sakriva se sadrzaj koji prelazi parent element */
+  /* overflow: visible; defaulta sadrzaj */
+  /* overflow: scroll; dodaje scrollbar u svakom slucaju*/
+  overflow: auto;
+  display: inline-block;
+  box-shadow: 3px 3px 12px rgba(12, 12, 12, 1),
+    -3px -3px 12px rgba(12, 12, 12, 1);
+}
+.second {
+  /* visibility: hidden sakriva element i ostaje rezervisan za taj element */
+  /* visibility: hidden; */
+  /* display: none sakriva element i prostor moze biti iskoriscen u narednim elementom */
+  display: none;
+}
+.drugi p {
+  /* width: 400px;
+  height: 200px; */
+  text-align: justify;
+  text-transform: uppercase;
+  text-indent: 30px;
+}
+img {
+  border-radius: 17px 17px 0px 0px;
+}
+body :hover {
+  background-color: rgb(212, 114, 203);
+}
+.drugi {
+  padding: 10px 10px;
+}
+/* od h1 do h6 su svi block level elementi kao i */
+/* <p>,div>,<main>,<article>,<section>,<header>,<footer>,<ol>,<ul>,<li>*/
+
+/* inline elementi */
+/* <input>,<a>,<span>,<button>,<texttarea> */
+/* <img> tag je inline-block element-to su elementi koji dozvoljavaju definisanje visine i sirine za razliku od inline elemenata*/
+.main img:hover {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_South_Korea.png);
+}

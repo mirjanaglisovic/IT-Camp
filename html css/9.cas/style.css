@@ -1,0 +1,27 @@
+.prvi {
+  width: 600px;
+  height: 600px;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/01/69/51/98/1000_F_169519820_NbCSoI1VZHD4AnutZp6RNczt7zH9REfe.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: contain- razvlaci se fotografija do momenta dok ne stigne do prve ivive */
+  /* background: cover; razvlaci se fotografija kako bi prekrila ceo kontejner, gubi se */
+  background-size: 800px 400px;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+.prvi h1,
+p {
+  color: blue;
+}
+.prvi p {
+  line-height: 40x;
+  letter-spacing: 2px;
+}
+.prvi:nth-of-type(2) {
+  padding: 15px;
+}
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
