@@ -1,0 +1,53 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Sofia+Sans+Extra+Condensed:ital,wght@1,1&display=swap"); */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  font-family: "Poppins", sans-serif;
+}
+.prvi {
+  background-color: rgb(41, 119, 93);
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.drugi {
+  background-color: rgb(181, 51, 201);
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.instagram {
+  color: rgb(255, 0, 51);
+  font-size: 30px;
+}
+.icon {
+  text-align: center;
+}
+/* Stilovi za svaki p tag koji se nalazi u .prvi kontejneru */
+/* Stilovi za p tag koji je direktno child element u .prvi kontejneru */
+.prvi > p {
+  color: aqua;
+}
+/* Stilovi za prvi p tag koji se nalazi nakon .prvi kontejner */
+.prvi + p {
+  color: red;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+}
+a:hover {
+  background-color: aquamarine;
+  color: beige;
+}
+a:active {
+  color: blueviolet;
+}
+a:visited {
+  color: green;
+}
