@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&family=Sofia+Sans+Extra+Condensed:ital,wght@1,1&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(194, 224, 224);
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  /* rgba cini nasu pozadinu prozirnom u odredjenoj meri- u zavisnosti od a parametra (0-1) */
+  /* background-color */
+  background-color: rgb(36, 78, 115);
+  opacity: 0.5;
+  width: 500px;
+  height: 500px;
+}
+img {
+  width: 800px;
+  height: 400px;
+  float: left;
+  margin-right: 15px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(167, 167, 212, 0.8);
+  float: left;
+}
+.box2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(205, 239, 158);
+  float: left;
+}
+.paragraf {
+  clear: both;
+}
