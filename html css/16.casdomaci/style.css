@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body {
+  background-color: rgb(217, 233, 248);
+}
+.img {
+  float: left;
+  margin-left: 240px;
+  padding-top: 200px;
+}
+.skiles {
+  font-size: 30px;
+}
+.kartica1 {
+  background-color: white;
+  width: 400px;
+  height: 140px;
+  position: absolute;
+  margin: 90px auto;
+  top: 180px;
+  left: 300px;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: ;
+}
+.parent {
+  float: left;
+  margin-left: 300px;
+}
+/* .naslov {
+  float: left;
+  margin-left: 30px;
+} */
+/* .kartica2 {
+  background-color: white;
+  width: 400px;
+  height: 140px;
+  float: left;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.pkartica2 {
+  float: left;
+  margin-left: 30px;
+} */
