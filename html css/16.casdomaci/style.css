@@ -7,11 +7,12 @@
 }
 .img {
   float: left;
-  margin-left: 240px;
+  margin-left: 150px;
   padding-top: 200px;
 }
 .skiles {
   font-size: 30px;
+  text-indent: 2px;
 }
 .kartica1 {
   background-color: white;
@@ -19,30 +20,257 @@
   height: 140px;
   position: absolute;
   margin: 90px auto;
-  top: 180px;
-  left: 300px;
+  top: 170px;
+  left: 200px;
   text-align: left;
   padding: 10px;
-  font-size: 16px;
-  box-shadow: ;
+  font-size: 18px;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+  letter-spacing: 1px;
+}
+.pkartice1 {
+  position: absolute;
+  bottom: 30px;
 }
 .parent {
-  float: left;
-  margin-left: 300px;
-}
-/* .naslov {
-  float: left;
-  margin-left: 30px;
-} */
-/* .kartica2 {
-  background-color: white;
   width: 400px;
-  height: 140px;
+  height: 135px;
+  padding: 40px;
+  text-align: left;
   float: left;
-  padding-top: 20px;
-  margin-left: 30px;
+  margin-left: 170px;
+  margin-top: 80px;
+  border-radius: 3px solid;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.slikakartice2 img:hover {
+  width: 80px;
+  height: 99px;
+  content: url(https://cdn.pokloni.com/files/659/matematicki-sat-ootb-v2.jpg);
+}
+.slikakartice2 {
+  position: absolute;
+  left: 0px;
+  bottom: 5px;
+  margin-left: 190px;
+  text-align: left;
+}
+.naslov {
+  position: absolute;
+  left: 160.5px;
+  bottom: 145px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.kartica2 {
+  background-color: white;
+  position: absolute;
+  bottom: 80px;
+  left: 300px;
+  font-size: 24px;
 }
 .pkartica2 {
+  position: absolute;
+  bottom: 20px;
+  left: 300px;
+  font-size: 20px;
+}
+.a {
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.kartica3 {
+  width: 400px;
+  height: 135px;
+  padding: 40px;
+  text-align: left;
   float: left;
-  margin-left: 30px;
-} */
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 3px solid;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.slikakartice3 {
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  margin-left: 590px;
+  text-align: left;
+}
+.slikakartice3 img:hover {
+  width: 100px;
+  height: 135.5px;
+  content: url(https://firstsiteguide.com/wp-content/uploads/2022/04/udemy-statistics-scaled.jpg);
+}
+.naslov3 {
+  color: grey;
+  font-size: 13px;
+  position: absolute;
+  left: 200px;
+  bottom: 85px;
+  margin-left: 500px;
+  letter-spacing: 1.3px;
+}
+.druginaslov3 {
+  position: absolute;
+  margin-right: 100px;
+  bottom: 25px;
+  left: 700px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.lecture {
+  color: grey;
+  position: absolute;
+  margin-right: 100px;
+  bottom: 0px;
+  left: 700px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.slikakartice4 {
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  margin-left: 1010.5px;
+  text-align: left;
+}
+.slikakartice4 img:hover {
+  width: 100px;
+  height: 135.5px;
+  content: url(https://digitaldefynd.com/wp-content/uploads/2021/06/Blue-and-Red-Bold-Geometric-Work-from-Home-Simple-Presentation.webp);
+}
+.naslov4 {
+  color: grey;
+  font-size: 15px;
+  position: absolute;
+  left: 250px;
+  bottom: 85px;
+  margin-left: 870px;
+  letter-spacing: 1.3px;
+}
+.druginaslov4 {
+  position: absolute;
+  margin-right: 100px;
+  bottom: 25px;
+  left: 1119px;
+  font-size: 18px;
+}
+.lecture4 {
+  color: grey;
+  position: absolute;
+  margin-right: 100px;
+  bottom: 0px;
+  left: 1119px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.iznad4 {
+  position: absolute;
+  margin-right: 100px;
+  bottom: 150px;
+  left: 1309px;
+  font-size: 18px;
+}
+.logo {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  margin-left: 10px;
+  top: 0px;
+  left: 10px;
+}
+.kategorija {
+  position: absolute;
+  margin-left: 50px;
+  top: 45px;
+  left: 160px;
+  font-size: 20px;
+  color: grey;
+}
+.header1 {
+  height: 43px;
+  /* border: solid 0.5px lightgray; */
+  /* box-shadow: 0.2px 0.2px 1px; */
+  position: sticky;
+  background-color: white;
+  top: 0px;
+  z-index: 10px;
+}
+.header2 {
+  height: 30px;
+  border: solid 0.5px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  line-height: 24px;
+  position: sticky;
+  background-color: white;
+  top: 43px;
+  z-index: 20px;
+}
+.udemyslika {
+  width: 110px;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}
+.minimini {
+  width: 10px;
+  height: 0.5px;
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  margin-left: 100px;
+  margin-top: -5px;
+}
+#search {
+  width: 550px;
+  height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0px;
+  margin-left: 100px;
+  margin-top: -17px;
+  left: 150px;
+  border: solid 0.2px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  letter-spacing: 2px;
+  text-indent: 10px;
+}
+.ub {
+  height: 10px;
+  width: 100px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 540px;
+  margin-left: 540px;
+  margin-top: -5.5px;
+  font-size: 14.5px;
+}
+.tu {
+  height: 10px;
+  width: 110px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 470px;
+  margin-left: 470px;
+  margin-top: -6px;
+  font-size: 16px;
+}
+.ml {
+  height: 10px;
+  width: 90px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 410px;
+  margin-left: 410px;
+  margin-top: -6px;
+  font-size: 17px;
+}
