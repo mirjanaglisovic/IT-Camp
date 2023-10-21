@@ -3,10 +3,204 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.header {
-  background-color: white;
-  max-width: 100%;
+.header1 {
+  height: 60px;
   position: sticky;
+  background-color: white;
   top: 0px;
-  border: 2px solid black;
+  margin-top: 0px;
+  z-index: 15px;
+}
+.header2 {
+  height: 30px;
+  border: solid 0.5px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  line-height: 24px;
+  position: sticky;
+  background-color: white;
+  top: 43px;
+  z-index: 20px;
+}
+.udemyslika {
+  width: 110px;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}
+.minimini {
+  width: 10px;
+  height: 0.5px;
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  margin-left: 100px;
+  margin-top: -5px;
+}
+#search {
+  width: 700px;
+  height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  top: 27px;
+  margin-left: 100px;
+  margin-top: -17px;
+  left: 150px;
+  border: solid 0.2px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  letter-spacing: 2px;
+  text-indent: 70px;
+}
+.ub {
+  color: black;
+  height: 10px;
+  width: 190px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 590px;
+  margin-left: 630px;
+  margin-top: -6px;
+  font-size: 17px;
+}
+.tu {
+  color: black;
+  height: 10px;
+  width: 190px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 520px;
+  margin-left: 560px;
+  margin-top: -6px;
+  font-size: 17px;
+}
+.ml {
+  color: black;
+  height: 10px;
+  width: 190px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 520px;
+  margin-left: 450px;
+  margin-top: -6px;
+  font-size: 17px;
+}
+.poklon {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 100px;
+  margin-right: 100px;
+}
+.zvono {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  margin-right: 100px;
+}
+.share {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 50px;
+  margin-right: 100px;
+}
+.lokacija {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -45px;
+  margin-right: 100px;
+}
+.klasa1 {
+  color: black;
+  position: absolute;
+  margin-left: 100px;
+  left: 100px;
+}
+.klasa2 {
+  color: black;
+  position: absolute;
+  margin-left: 200px;
+  left: 105px;
+}
+.klasa3 {
+  color: black;
+  position: absolute;
+  margin-left: 250px;
+  left: 135px;
+}
+.klasa4 {
+  color: black;
+  position: absolute;
+  margin-left: 300px;
+  left: 250px;
+}
+.klasa5 {
+  color: black;
+  position: absolute;
+  margin-left: 350px;
+  left: 310px;
+}
+.klasa6 {
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  left: 400px;
+}
+.klasa7 {
+  color: black;
+  position: absolute;
+  margin-left: 450px;
+  left: 520px;
+}
+.klasa8 {
+  color: black;
+  position: absolute;
+  margin-left: 500px;
+  left: 540px;
+}
+.klasa9 {
+  color: black;
+  position: absolute;
+  margin-left: 550px;
+  left: 580px;
+}
+.klasa10 {
+  color: black;
+  position: absolute;
+  margin-left: 600px;
+  left: 660px;
+}
+.parent {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(131, 173, 94);
+}
+.child {
+  width: 400px;
+  height: 160px;
+  background-color: white;
+  margin-left: -200px;
+}
+.skiles {
+  padding: 5px;
+  font-size: 30px;
+  text-indent: 6px;
+}
+.pkartice1 {
+  padding: 5px;
+  font-size: 20px;
+  text-indent: 3px;
 }
