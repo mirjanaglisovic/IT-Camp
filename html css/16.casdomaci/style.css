@@ -194,12 +194,11 @@
 }
 .header1 {
   height: 43px;
-  /* border: solid 0.5px lightgray; */
-  /* box-shadow: 0.2px 0.2px 1px; */
   position: sticky;
   background-color: white;
   top: 0px;
-  z-index: 10px;
+  margin-top: 0px;
+  z-index: 15px;
 }
 .header2 {
   height: 30px;
@@ -228,7 +227,7 @@
   margin-top: -5px;
 }
 #search {
-  width: 550px;
+  width: 700px;
   height: 40px;
   border-radius: 50px;
   position: absolute;
@@ -239,38 +238,139 @@
   border: solid 0.2px lightgray;
   box-shadow: 0.2px 0.2px 1px;
   letter-spacing: 2px;
-  text-indent: 10px;
+  text-indent: 70px;
 }
 .ub {
+  color: black;
   height: 10px;
-  width: 100px;
+  width: 190px;
   border: none;
   position: absolute;
   top: 0px;
-  left: 540px;
-  margin-left: 540px;
-  margin-top: -5.5px;
-  font-size: 14.5px;
-}
-.tu {
-  height: 10px;
-  width: 110px;
-  border: none;
-  position: absolute;
-  top: 0px;
-  left: 470px;
-  margin-left: 470px;
-  margin-top: -6px;
-  font-size: 16px;
-}
-.ml {
-  height: 10px;
-  width: 90px;
-  border: none;
-  position: absolute;
-  top: 0px;
-  left: 410px;
-  margin-left: 410px;
+  left: 590px;
+  margin-left: 630px;
   margin-top: -6px;
   font-size: 17px;
+}
+.tu {
+  color: black;
+  height: 10px;
+  width: 190px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 520px;
+  margin-left: 560px;
+  margin-top: -6px;
+  font-size: 17px;
+}
+.ml {
+  color: black;
+  height: 10px;
+  width: 190px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 520px;
+  margin-left: 450px;
+  margin-top: -6px;
+  font-size: 17px;
+}
+.poklon {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 100px;
+  margin-right: 100px;
+}
+.zvono {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  margin-right: 100px;
+}
+.share {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 50px;
+  margin-right: 100px;
+}
+.lokacija {
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -45px;
+  margin-right: 100px;
+}
+.klasa1 {
+  color: black;
+  position: absolute;
+  margin-left: 100px;
+  left: 100px;
+}
+.klasa2 {
+  color: black;
+  position: absolute;
+  margin-left: 200px;
+  left: 105px;
+}
+.klasa3 {
+  color: black;
+  position: absolute;
+  margin-left: 250px;
+  left: 135px;
+}
+.klasa4 {
+  color: black;
+  position: absolute;
+  margin-left: 300px;
+  left: 250px;
+}
+.klasa5 {
+  color: black;
+  position: absolute;
+  margin-left: 350px;
+  left: 310px;
+}
+.klasa6 {
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  left: 400px;
+}
+.klasa7 {
+  color: black;
+  position: absolute;
+  margin-left: 450px;
+  left: 520px;
+}
+.klasa8 {
+  color: black;
+  position: absolute;
+  margin-left: 500px;
+  left: 540px;
+}
+.klasa9 {
+  color: black;
+  position: absolute;
+  margin-left: 550px;
+  left: 580px;
+}
+.klasa10 {
+  color: black;
+  position: absolute;
+  margin-left: 600px;
+  left: 660px;
+}
+.paragraf {
+  padding: 150px;
+  margin-top: 20px;
+  clear: both;
+  text-align: justify;
 }
