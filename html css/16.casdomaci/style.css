@@ -197,8 +197,8 @@
   position: sticky;
   background-color: white;
   top: 0px;
-  margin-top: 0px;
-  z-index: 15px;
+  /* margin-top: 0px; */
+  z-index: 25px;
 }
 .header2 {
   height: 30px;
@@ -207,7 +207,7 @@
   line-height: 24px;
   position: sticky;
   background-color: white;
-  top: 43px;
+  /* top: 0px; */
   z-index: 20px;
 }
 .udemyslika {
