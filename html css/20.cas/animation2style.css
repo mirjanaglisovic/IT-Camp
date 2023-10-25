@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  height: 500px;
+  background-color: blue;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  transition: transform 0.5s linear;
+}
+.parent:hover .child {
+  transform: translateX(93.5vw);
+  background-color: brown;
+}
