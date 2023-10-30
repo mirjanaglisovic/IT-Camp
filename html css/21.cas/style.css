@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #00b9b9;
+  color: #ff0000;
+  font-size: 2rem;
+}
+
+/* @media (max-width: 500px) {
+  .main {
+    background-color: #dfafff;
+    color: #520000;
+    font-size: 1rem;
+  }
+} */
+/* Okvir za prikaz je u pejzažnoj orijentaciji, tj. širina je veća od visine. */
+/* @media (orientation: landscape) {
+  .main {
+    background-color: #dfafff;
+    color: #520000;
+    font-size: 1rem;
+  }
+} */
+/* Okvir za prikaz je u portretnoj orijentaciji, tj. visina je veća ili jednaka širini. */
+/* @media (orientation: portrait) {
+  .main {
+    background-color: #dfafff;
+    color: #520000;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px), (min-width: 800px) {
+  .main {
+    background-color: #dfafff;
+    color: #520000;
+    font-size: 1rem;
+  }
+} */
+@media (min-width: 500px) and (max-width: 800px) {
+  .main {
+    color: #22e275;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    background-color: #f01515;
+    color: #2e17ff;
+    font-size: 1rem;
+  }
+}

@@ -29,7 +29,7 @@ footer {
   transition: transform 1s ease-in-out;
 }
 .parent:hover .child {
-  transform: translateX(10050%);
+  transform: translateX(3890%);
   background-color: rgb(101, 221, 183);
 }
 .child2 {
@@ -43,6 +43,6 @@ footer {
   transition: transform 1s ease-in-out;
 }
 .parent:hover .child2 {
-  transform: translateX(-10050%);
+  transform: translateX(-3890%);
   background-color: rgb(173, 92, 11);
 }
