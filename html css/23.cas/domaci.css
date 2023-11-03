@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.slika {
+  width: 1600px;
+  height: 800px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
+}
+header {
+  height: 10vh;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid white;
+}
+.fa-facebook {
+  grid-area: facebook;
+}
+.josan {
+  flex-grow: 1;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.links {
+  text-decoration: none;
+  font-size: 200px;
+  flex-grow: 30;
+  color: rgb(0, 0, 0);
+}
+.links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 25px;
+}
+/* .links ul li {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  transition: transform 0.3s ease-in;
+}
+.links ul li:hover {
+  transform: scale(1.2);
+} */
