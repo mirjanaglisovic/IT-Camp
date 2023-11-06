@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 .slika {
-  width: 1600px;
-  height: 800px;
+  width: 100%;
+  height: 700px;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
+  background-image: url(https://images.pexels.com/photos/15131462/pexels-photo-15131462/free-photo-of-thunderstorm-over-lake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
 header {
   height: 10vh;
@@ -16,37 +16,82 @@ header {
   top: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 50px;
   padding-right: 50px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.185);
+}
+.ikonice {
+  display: grid;
+  justify-self: end;
+  align-self: center;
+  grid-template-columns: repeat(3, 50px);
 }
 .fa-facebook {
   grid-area: facebook;
 }
 .josan {
   flex-grow: 1;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  color: #ffffff;
 }
 .links {
-  text-decoration: none;
-  font-size: 200px;
   flex-grow: 30;
-  color: rgb(0, 0, 0);
+}
+.linkovi {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 .links ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 15px;
   gap: 25px;
 }
-/* .links ul li {
-  text-decoration: none;
-  color: rgb(2, 2, 2);
-  transition: transform 0.3s ease-in;
+.parent {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 10px;
+  border-radius: 2px solid black;
+  grid-template-areas:
+    "prva prva prva"
+    "druga druga druga"
+    "treca treca treca";
 }
-.links ul li:hover {
-  transform: scale(1.2);
-} */
+.kockica1 {
+  width: 400px;
+  height: 440px;
+  border-radius: 1px solid black;
+  margin-top: 750px;
+  padding-left: 30px;
+  padding-top: 11px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  grid-area: prva;
+  font-size: 20px;
+}
+.kockica2 {
+  width: 1000px;
+  height: 1550px;
+  background-image: url(https://preview.colorlib.com/theme/josanclick/assets/img/gallery/about1.jpg);
+  background-repeat: no-repeat;
+  grid-area: druga;
+  margin-top: -450px;
+  margin-left: 405px;
+}
+.kockica3 {
+  width: 400px;
+  height: 440px;
+  border-radius: 1px solid black;
+  margin-top: -1555px;
+  margin-left: 880px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  grid-area: treca;
+}
