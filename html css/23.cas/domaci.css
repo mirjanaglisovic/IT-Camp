@@ -5,7 +5,7 @@
 }
 .slika {
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-repeat: no-repeat;
   position: absolute;
   background-image: url(https://images.pexels.com/photos/15131462/pexels-photo-15131462/free-photo-of-thunderstorm-over-lake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
@@ -19,7 +19,7 @@ header {
   justify-content: center;
   padding-left: 50px;
   padding-right: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.185);
+  border: 1px solid rgba(255, 255, 255, 0.209);
 }
 .ikonice {
   display: grid;
@@ -55,7 +55,6 @@ header {
   width: 50%;
   grid-template-columns: repeat(3, 200px);
   grid-gap: 10px;
-  border-radius: 2px solid black;
   grid-template-areas:
     "prva prva prva"
     "druga druga druga"
@@ -65,8 +64,8 @@ header {
   width: 400px;
   height: 440px;
   border-radius: 1px solid black;
-  margin-top: 750px;
-  padding-left: 30px;
+  margin-top: 850px;
+  padding-left: 100px;
   padding-top: 11px;
   padding-right: 10px;
   padding-bottom: 5px;
@@ -75,23 +74,178 @@ header {
 }
 .kockica2 {
   width: 1000px;
-  height: 1550px;
+  height: 1650px;
   background-image: url(https://preview.colorlib.com/theme/josanclick/assets/img/gallery/about1.jpg);
   background-repeat: no-repeat;
   grid-area: druga;
   margin-top: -450px;
-  margin-left: 405px;
+  margin-left: 550px;
 }
 .kockica3 {
   width: 400px;
   height: 440px;
   border-radius: 1px solid black;
-  margin-top: -1555px;
-  margin-left: 880px;
+  margin-top: -1655px;
+  margin-left: 1100px;
   padding-left: 10px;
   padding-top: 5px;
   padding-right: 30px;
   padding-bottom: 5px;
   font-size: 18px;
   grid-area: treca;
+}
+.sestslika {
+  display: grid;
+  grid-template-columns: repeat(2, 1000px);
+  grid-template-rows: repeat(3, 400px);
+  grid-gap: 10px;
+  grid-template-areas:
+    "prva druga treca"
+    "cetvrta peta sesta";
+}
+.prvasl {
+  width: 540px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://static.wixstatic.com/media/4e3b48_17df51843b494a9cb6e99bbed0aa758e~mv2.jpg/v1/fill/w_646,h_974,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4e3b48_17df51843b494a9cb6e99bbed0aa758e~mv2.jpg);
+  grid-area: prva;
+  margin-top: -1000px;
+  margin-left: 0px;
+}
+.drugasl {
+  width: 550px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://agilecommerce.co/assets/images/image02.jpg?v=1d22b6a7);
+  grid-area: druga;
+  margin-top: -1000px;
+  margin-left: -480px;
+}
+.trecasl {
+  width: 505px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1hQvL1RiKOtsk5O4Y60tNQ.jpeg);
+  grid-area: treca;
+  margin-top: -1000px;
+  margin-left: -950px;
+}
+.cetvrtasl {
+  width: 600px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.thecouragetobefree.com/wp-content/uploads/2018/07/dawn-dock-dusk-129441-e1532718086158.jpg);
+  grid-area: cetvrta;
+  margin-top: -510px;
+  margin-left: 0px;
+}
+.petasl {
+  width: 550px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  grid-area: peta;
+  margin-top: -510px;
+  margin-left: -480.5px;
+}
+.sestasl {
+  width: 505px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://scontent.fbeg2-1.fna.fbcdn.net/v/t1.6435-9/70707286_1301874909974756_6952384164716871680_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Jgg8gu1HrHYAX-760SO&_nc_ht=scontent.fbeg2-1.fna&oh=00_AfBK_8I1-uG2TWqGtb6dbwSKnkJsBTxkbvbRb_JgaCTYvA&oe=65731336);
+  grid-area: sesta;
+  margin-top: -510px;
+  margin-left: -950px;
+}
+.ido {
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  margin-left: -100px;
+  margin-top: 920px;
+  font-size: 40px;
+}
+.text {
+  display: grid;
+  grid-template-columns: 300px;
+}
+.malaslika {
+  width: 500px;
+  height: 600px;
+  margin-left: -280px;
+  margin-top: 1010px;
+  background-image: url(https://preview.colorlib.com/theme/josanclick/assets/img/gallery/blog01.jpg);
+  background-repeat: no-repeat;
+}
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins&display=swap");
+
+.enent {
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 30px;
+  margin-left: -280px;
+  margin-top: -265px;
+}
+.sedut {
+  width: 400px;
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 19px;
+  margin-left: -280px;
+  margin-top: -10px;
+}
+.malaslika2 {
+  display: grid;
+  grid-template-columns: 300px;
+}
+.slika2 {
+  width: 500px;
+  height: 600px;
+  margin-left: 600px;
+  margin-top: -610px;
+  background-image: url(https://preview.colorlib.com/theme/josanclick/assets/img/gallery/blog02.jpg);
+  background-repeat: no-repeat;
+}
+.wedding {
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 30px;
+  width: 400px;
+  margin-left: 600px;
+  margin-top: -280px;
+}
+.sedut2 {
+  width: 400px;
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 19px;
+  margin-left: 600px;
+  margin-top: -245px;
+}
+.malaslika3 {
+  display: grid;
+  grid-template-columns: 300px;
+}
+.slika3 {
+  width: 500px;
+  height: 600px;
+  margin-left: 850px;
+  margin-top: -610px;
+  background-image: url(https://preview.colorlib.com/theme/josanclick/assets/img/gallery/blog03.jpg);
+  background-repeat: no-repeat;
+}
+.family {
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 30px;
+  width: 400px;
+  margin-left: 860px;
+  margin-top: -280px;
+}
+.sedut3 {
+  width: 400px;
+  color: rgb(86, 84, 84);
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 19px;
+  margin-left: 860px;
+  margin-top: -250px;
 }
