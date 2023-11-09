@@ -14,6 +14,7 @@ header {
   height: 10vh;
   position: sticky;
   top: 0px;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,4 +249,36 @@ header {
   font-size: 19px;
   margin-left: 860px;
   margin-top: -250px;
+}
+.crnaslika {
+  width: 1579px;
+  height: 700px;
+  margin-top: 10px;
+  background-image: url(https://fotodiskont.rs/media/catalogProduct/visicoMuslinPozadinaCrnaBoja3x3m/3x3black.jpg);
+}
+.testimonial {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.textispod {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.kamera {
+  margin-left: 760px;
+}
+.plan {
+  font-family: "Edu TAS Beginner", cursive;
+  margin-top: 100px;
+  margin-left: 500px;
+  font-size: 20px;
 }
