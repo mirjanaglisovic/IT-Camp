@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(212, 212, 207);
+}
+header {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: sticky;
+  top: 0px;
+  border-radius: 1px solid rgba(0, 0, 0, 0.188);
+  z-index: 10;
+}
+.yummy {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+}
+.link1 {
+  text-decoration: none;
+  color: black;
+}
+.crvenatacka {
+  color: red;
+  position: absolute;
+  top: 17px;
+  left: 180px;
+  font-size: 60px;
+}
+.linkovi ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  gap: 25px;
+  text-decoration: none;
+}
+.linkovi ul li a {
+  color: black;
+  text-decoration: none;
+}
+.book {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(188, 11, 11);
+  margin-right: 30px;
+  padding-top: 7px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.booklink {
+  text-decoration: none;
+  color: white;
+}
+.child1 {
+  width: 600px;
+  height: 300px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 100px;
+}
+.child2 {
+  width: 430px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 105px;
+}
+.child3 {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(188, 11, 11);
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 110px;
+}
+.booklink2 {
+  color: white;
+  text-decoration: none;
+}
+.video {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -72px;
+  margin-left: 350px;
+  font-size: 23px;
+}
+.videolink {
+  color: brown;
+  text-decoration: none;
+}
+.slika1 {
+  display: grid;
+  grid-template-columns: 650px;
+  justify-content: flex-end;
+  margin-top: -460px;
+}
+.belikontejner {
+  background-color: white;
+  width: 100%;
+  height: 1150px;
+}
+.aboutus {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.learnmore {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  display: flex;
+  margin-left: 540px;
+}
+.crvenaboja {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  color: red;
+  position: absolute;
+  top: 920px;
+  margin-left: 840px;
+  z-index: 5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins&family=Rajdhani&family=Shadows+Into+Light&display=swap");
+
+.parent2 {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 66% 35%;
+  grid-template-rows: 800px;
+  grid-template-areas: "prva1 druga2 treci3";
+}
+.slika2 {
+  width: 800px;
+  height: 1000px;
+  background-image: url(https://www.glassinfotech.com/assets/about.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 100px;
+  grid-area: prva1;
+}
+.lorem {
+  font-family: "Edu TAS Beginner", cursive;
+  height: 200px;
+  width: 490px;
+  font-size: 30px;
+  grid-area: druga2;
+}
+.textovi {
+  width: 470px;
+  font-size: 25px;
+  grid-area: druga2;
+  margin-top: 150px;
+}
+.plus381 {
+  margin-top: 250px;
+  width: 600px;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+.brtel {
+  font-size: 36px;
+  color: red;
+}
+.parent3 {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 90px 400px 20px 300px 20px 300px 20px 300px 90px;
+  grid-template-rows: 600px;
+  grid-template-areas: "razmak1 kontejner1 razmak2 kontejner2 razmak3 kontejner3 razmak4 kontejner4 razmak5 kontejner5 razmak6 kontejner6 razmak7 kontejner7 razmak8 kontejner8 razmak9 kontejner9";
+}
+/* .parent3:hover .child11 {
+  transform: translateX(100%);
+} */
+.child11 {
+  margin-top: 50px;
+  background-color: rgb(205, 62, 62);
+  font-size: 30px;
+  grid-area: kontejner1;
+  padding: 10px;
+  box-shadow: 7px 7px 7px rgb(177, 174, 174);
+}
+.why {
+  text-align: center;
+  padding-top: 15px;
+}
+.child22 {
+  height: 500px;
+  margin-top: 75px;
+  background-color: rgb(253, 250, 250);
+  font-size: 30px;
+  grid-area: kontejner2;
+  padding: 10px;
+  box-shadow: 7px 7px 7px rgb(177, 174, 174);
+  color: gray;
+}
+.child33 {
+  height: 500px;
+  margin-top: 75px;
+  background-color: rgb(253, 250, 250);
+  font-size: 30px;
+  grid-area: kontejner3;
+  padding: 10px;
+  box-shadow: 7px 7px 7px rgb(177, 174, 174);
+  color: rgb(60, 59, 59);
+  color: gray;
+}
+.child44 {
+  height: 500px;
+  margin-top: 75px;
+  background-color: rgb(253, 250, 250);
+  font-size: 30px;
+  grid-area: kontejner4;
+  padding: 10px;
+  box-shadow: 7px 7px 7px rgb(177, 174, 174);
+  color: gray;
+}
+.corporis {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+.prvired {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  border-radius: 2px solid white;
+  color: white;
+  font-size: 20px;
+}
+.adresa {
+  font-size: 28px;
+}
+.address {
+  position: relative;
+  bottom: 45px;
+  padding-left: 120px;
+}
+.fa-location-dot {
+  padding-top: 70px;
+  padding-left: 50px;
+  font-size: 45px;
+}
+.reservations {
+  position: relative;
+  bottom: 185px;
+  padding-left: 530px;
+}
+.rezervacija {
+  font-size: 28px;
+}
+.fa-phone {
+  position: relative;
+  bottom: 140px;
+  padding-left: 450px;
+  font-size: 39px;
+}
+.opening {
+  position: relative;
+  bottom: 350px;
+  padding-left: 940px;
+}
+.openinghours {
+  font-size: 28px;
+}
+.fa-clock {
+  position: relative;
+  bottom: 306px;
+  padding-left: 850px;
+  font-size: 45px;
+}
+.drugired {
+  border-top: 1px solid rgba(255, 255, 255, 0.339);
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  border-radius: 2px solid rgba(255, 255, 255, 0.332);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: gray;
+}
