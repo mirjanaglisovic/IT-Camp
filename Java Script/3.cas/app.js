@@ -19,6 +19,13 @@ console.log(paragraf.innerHTML);
 // 2. $ (dolar znakom),
 // 3. _ (donjom crtom).
 
+// Promenljive od vise reci:
+
+// nas brat = "Demir" Nije ispravan nacin
+// nas_brat = "Demir" snake case
+// NasBrat = "Demir" lower case
+nasBratDobri = "Demir"; // upper camel case
+
 // Napomena: U nazivu promenljive ili varijable se moze naci broj, ali ona se ne sme poceti brojem.
 
 amir = "Amir je odlican ucenik prve godine srednje skole.";
@@ -48,7 +55,7 @@ projatno = "Prijatno!"; //inicijalizacija deklarisane promenljive prijatno
 let brojGodina; // deklarisanje promenljive
 brojGodina = 27; // inicijalizacija deklarisane promenljive brojGodina
 
-//3. Koriscenje let kezword (rezervisane reci) - koristimo za vrednosti koje se ne menjaju.
+//3. Koriscenje const kezword (rezervisane reci) - koristimo za vrednosti koje se ne menjaju.
 
 //const ime = "Dzenan"; primer istovremenog deklaracije i inicijacije promenljive pomocu const
 
