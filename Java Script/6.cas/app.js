@@ -16,6 +16,10 @@ if (trenutnoVreme >= 6 && trenutnoVreme < 12) {
   console.log("Dobro vece");
 }
 
+// 2. Zadatak
+// Na osnovu dve promenljive x i y napisati program koji izracunava i stampa
+// kolicnik x/y ako je broj y razlicit od nule, a inace ispisuje poruku: Deljenje je nemoguce.
+
 brojGodina = 21;
 
 if (brojGodina >= 7 % brojGodina < 13) {
@@ -23,6 +27,8 @@ if (brojGodina >= 7 % brojGodina < 13) {
 } else {
   console.log("Maloletni ste");
 }
+
+// Drugi nacin
 
 if (brojGodina >= 18) {
   console.log("Punoletni ste");
@@ -38,3 +44,12 @@ if (y === 0) {
 } else {
   console.log(x / y);
 }
+
+// Domaci:
+// Na osnovu promenljive brojGodina ispisati u konzoli sledece:
+// ako je broj godina manji od 12: "Vi ste decijeg doba"
+// ako je broj godina izmedju 12(ukljucuje) i 18(ne ukljucuje): Vi ste maloletni
+// ako je broj godina izmedju 18(ukljucuje) i 40(ne ukljucuje): Vi ste punoletni
+// ako je broj godina veci ili jednak 40: Vi ste zrela osoba.
+
+// const brojGodina = 27;
