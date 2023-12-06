@@ -39,7 +39,7 @@ if (brojGodina >= 18) {
 const x = 12;
 const y = 6;
 
-if (y === 0) {
+if (y == 0) {
   console.log("Deljenje je nemoguce");
 } else {
   console.log(x / y);
@@ -52,4 +52,14 @@ if (y === 0) {
 // ako je broj godina izmedju 18(ukljucuje) i 40(ne ukljucuje): Vi ste punoletni
 // ako je broj godina veci ili jednak 40: Vi ste zrela osoba.
 
-// const brojGodina = 27;
+brojGodina = 21;
+
+if (brojGodina <= 12) {
+  console.log("Vi ste decijeg doba");
+} else if (brojGodina >= 12 && brojGodina < 18) {
+  console.log("Vi ste maloletni");
+} else if (brojGodina > 18 && brojGodina <= 39) {
+  console.log("Vi ste punoletni");
+} else if (brojGodina <= 39) {
+  console.log("Vi ste zrela osoba.");
+}
