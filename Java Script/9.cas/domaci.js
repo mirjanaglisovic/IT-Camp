@@ -41,6 +41,13 @@ for (let i = 6; i <= 14; i++) {
   console.log(`Dvostruka vrednost broja ${i} je ${dvostrukaVrednost}`);
 }
 
+// 2. nacin
+
+for (let i = 6; i < 15; i++) {
+  const doubleValue = i * 2;
+  console.log(doubleValue);
+}
+
 // 4. Ispisati sve brojeve od 50 do 100 koji su deljivi sa 5.
 
 for (let i = 50; i <= 100; i++) {
