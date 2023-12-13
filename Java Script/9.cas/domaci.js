@@ -3,7 +3,9 @@
 // 1. Ispisati neparne brojeve od 1 do 20 na dva nacina.
 
 for (let i = 1; i <= 20; i++) {
-  console.log(i);
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
 }
 
 // 2 Nacin
@@ -11,7 +13,11 @@ for (let i = 1; i <= 20; i++) {
 const broj = "broj";
 
 for (let i = 0; i < 20; i++) {
-  console.log(broj);
+  if (i % 2 === 0) {
+    continue;
+  } else {
+    console.log(i);
+  }
 }
 
 // 2. Ispisati parne brojeve od 1 do 20 na dva nacina.
