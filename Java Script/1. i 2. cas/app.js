@@ -28,7 +28,7 @@ console.log(typeof BigInt(12345678987654321234567890098765432234567876543289));
 console.log(true);
 console.log(typeof true);
 
-// 1.5. Undefined - Promenljiva koja je definisanaa ali joj nije dodeljena vrednost ima vrednost i tip takosje underfined.
+// 1.5. Undefined - Promenljiva koja je definisanaa ali joj nije dodeljena vrednost ima vrednost i tip takodje underfined.
 var a;
 console.log(a);
 console.log(typeof a);
@@ -62,7 +62,7 @@ nasBrat = ["Demir", 18, true];
 obj = { ime: "Demir", brojGodina: "18", punoletan: true };
 console.log(obj);
 
-// 2.3. Set = Predstavlja strukturu podataka za skladistenje vise vrednosti. Duplikati nisu doyvoljeni.
+// 2.3. Set = Predstavlja strukturu podataka za skladistenje vise vrednosti. Duplikati nisu dozvoljeni.
 
 set = new Set(["Kanita", 19, true]); // Druga Kanita se ne vidi
 console.log(Set);

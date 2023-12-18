@@ -24,6 +24,7 @@ console.log(paragraf.innerHTML);
 // nas brat = "Demir" Nije ispravan nacin
 // nas_brat = "Demir" snake case
 // NasBrat = "Demir" lower case
+
 nasBratDobri = "Demir"; // upper camel case
 
 // Napomena: U nazivu promenljive ili varijable se moze naci broj, ali ona se ne sme poceti brojem.
@@ -46,16 +47,16 @@ var prijatno; // deklarisanje promenljive
 console.log(prijatno); // undefined
 console.log(typeof prijatno); // undefined
 
-projatno = "Prijatno!"; //inicijalizacija deklarisane promenljive prijatno
+prijatno = "Prijatno!"; //inicijalizacija deklarisane promenljive prijatno
 
-// 2. Koriscenje let kezword (rezervisane reci) - koristimo kada je vrednost promenljive ili varijable sklono menjanju.
+// 2. Koriscenje let keyword (rezervisane reci) - koristimo kada je vrednost promenljive ili varijable sklono menjanju.
 
 //let brojGodina = 25 primer istovremenog deklarisanje i inicijalizovanje promenljive pomocu let.
 
 let brojGodina; // deklarisanje promenljive
 brojGodina = 27; // inicijalizacija deklarisane promenljive brojGodina
 
-//3. Koriscenje const kezword (rezervisane reci) - koristimo za vrednosti koje se ne menjaju.
+//3. Koriscenje const keyword (rezervisane reci) - koristimo za vrednosti koje se ne menjaju.
 
 //const ime = "Dzenan"; primer istovremenog deklaracije i inicijacije promenljive pomocu const
 
@@ -67,4 +68,4 @@ brojGodina = 27; // inicijalizacija deklarisane promenljive brojGodina
 
 mervan = "Mervan";
 
-// Napomeena promenljive ili varijable su kontejneri za skladistenje vrednosti.
+// Napomena promenljive ili varijable su kontejneri za skladistenje vrednosti.

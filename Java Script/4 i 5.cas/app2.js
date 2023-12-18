@@ -78,7 +78,7 @@ console.log(x);
 
 // 2.7. **
 
-x **= 4;
+x ** 4;
 console.log(x);
 
 // 3. String operatori:

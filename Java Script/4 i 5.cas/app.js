@@ -1,4 +1,4 @@
-// Promnljive definisane preko var kezword-a mozemo ponovo deklarisati (izvrsiti redeklaraciju), kao i renicijalizaciju (novo dodeljivanje vrednosti).
+// Promnljive definisane preko var keyword-a mozemo ponovo deklarisati (izvrsiti redeklaraciju), kao i renicijalizaciju (novo dodeljivanje vrednosti).
 
 var x = 10;
 console.log(x);
@@ -11,7 +11,7 @@ console.log(x);
 
 // Let i const keywords nam obezbedjuju Block Scope.
 
-// Promnljive definisane preko let kezword-a mozemo ponovo deklarisati (izvrsiti redeklaraciju) ako se nalazimo u drugom prostoru, dok renicijalizaciju (novo dodeljivanje vrednosti) mozemo izvrsiti u istom prostoru.
+// Promenljive definisane preko let kezword-a mozemo ponovo deklarisati (izvrsiti redeklaraciju) ako se nalazimo u drugom prostoru, dok renicijalizaciju (novo dodeljivanje vrednosti) mozemo izvrsiti u istom prostoru.
 
 let y = 3;
 console.log(y);
