@@ -20,7 +20,7 @@ const proveraStanja = (vrednost) => {
 console.log(proveraStanja(5));
 console.log(proveraStanja(-3));
 console.log(proveraStanja(0));
-console.log(proveraStanja("abc"));
+console.log(proveraStanja("mm"));
 
 // Zadatak 2:
 // Napiši funkciju koja prima broj i vraća true ako je broj paran, a false ako je neparan.
@@ -45,3 +45,12 @@ console.log(veciBroj(-2, 0));
 
 // Zadatak 4:
 // Napiši funkciju koja prima broj i vraća sumu svih brojeva do tog broja (uključujući taj broj). Na primer, za broj 4, funkcija treba vratiti 1 + 2 + 3 + 4 = 10.
+
+function suma(broj) {
+  let suma = 0;
+  for (let i = 1; i <= broj; i++) {
+    suma += i;
+  }
+  return suma;
+}
+console.log(suma(44));
