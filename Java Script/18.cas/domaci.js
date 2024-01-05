@@ -23,7 +23,7 @@ if (korisnickoIme) {
 
 // 3. Korisnik unosi broj. Proveriti da li je uneti broj falsy vrednost (0 ili NaN). Ako je uneti broj falsy, ispisati poruku da korisnik nema definisan broj, inače ispisati uneti broj.
 
-var broj = Number(prompt("Unesite broj:"));
+let broj = Number(prompt("Unesite broj:"));
 
 if (broj === 0 || isNaN(broj)) {
   console.log("Korisnik nema definisan broj.");
