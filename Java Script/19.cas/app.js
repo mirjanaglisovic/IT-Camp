@@ -2,6 +2,7 @@
 
 // const recenica = "Danas je bio 'suncan' dan.";
 // const recenica2 = 'Danas je bio "suncan" dan.';
+// const recenica3 = "Danas je bio \'suncan\' dan.";
 
 const recenica3 = 'Danas je bio "suncan" dan.';
 console.log(recenica3);
