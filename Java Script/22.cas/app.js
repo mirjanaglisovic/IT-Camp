@@ -26,4 +26,13 @@ console.log(matchNiz.length); // Broj pojavljivanje tog stringa u pozdrav string
 
 // 1. Prebrojati koliko ima cifara u datom stringu.
 
-function brZn(recenica) {}
+function brCf(recenica) {
+  let brojac = 0;
+  for (let i = 0; i < recenica.length; i++) {
+    if (isNaN(recenica[i]) && recenica[i] !== " ") {
+      brojac++;
+    }
+  }
+  return brojac;
+}
+console.log(brCf("Veceras nas ima 10."));
