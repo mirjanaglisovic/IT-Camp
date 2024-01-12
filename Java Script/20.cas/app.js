@@ -53,18 +53,3 @@ console.log(recenica5);
 
 const recenica6 = recenica2.replace(/sneg/gi, "kisa");
 console.log(recenica6);
-
-// Domaci zadaci:
-// 1.
-// Napraviti funkciju koja kod stringa koji predstavlja argument funkcije ispituje sledece:
-// Ako dati string ima vecu duzinu od 9:
-// pravi novi string gde menjamo sva mala slova "a" sa "B" i funkcija ce vratiti novi string koji je sastavljen od "Ovo je novodobijena recenica, " + novaRecenica
-// Ako string ima duzinu <= 9:
-// Funkcija treba vratiti poruku:
-// Recenica je nedovoljne duzine za dalje ispitivanje.
-
-// 2. Napraviti funkciju koja trazi od korisnika da unese neku recenicu, zatim funkcija vraca, datu recenicu u vise oblika (spojenu u jedan string).
-// 1. recenicu ispisanu velikim slovima;
-// 2. recenicu ispisanu malim slovima;
-// 3. pola recenice ispisano velikim slovima, pola recenice ispisano malim slovima;
-// 4. Ako se u recenici nadje rec 'skola' neka bude zamenjena recju 'fakultet'.
