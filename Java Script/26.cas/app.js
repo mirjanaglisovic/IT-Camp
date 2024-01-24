@@ -32,3 +32,20 @@ console.log(y + z);
 console.log(y < z);
 console.log(w + z);
 console.log(w === z);
+
+// 1. Write a JavaScript function to hide email addresses to protect from unauthorized user.
+// console.log(protectEmail("robin_singh@example.com")); (posle imena moze biti ili _ ili .)
+// "robin...@example.com"
+
+const protectEmail = (email) => {
+  const _Index = email.indexOf("_");
+  const dotIndex = email.indexOf(".");
+  const cutStartIndex = _Index === -1 ? dotIndex : _Index;
+  const etIndex = email.indexOf("@");
+  const cut = email.slice(cutStartIndex, etIndex);
+  newEmail = email.replace(cut, "...");
+  return newEmail;
+};
+
+console.log(protectEmail("mirjana.glisovic@example.com"));
+console.log(protectEmail("mirjana_glisovic@gmail.com"));

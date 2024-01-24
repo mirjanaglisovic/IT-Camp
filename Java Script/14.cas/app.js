@@ -10,7 +10,7 @@ console.log(recenica[9]);
 
 console.log(recenica[34]);
 
-// Koristi mo lenght metodu za izracunavanje duzine stringa:
+// Koristimo lenght metodu za izracunavanje duzine stringa:
 const duzinaRecenice = recenica.length; // moze i ovo da se koristi
 console.log(recenica.length);
 console.log(recenica[duzinaRecenice - 1]);
