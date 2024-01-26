@@ -49,3 +49,5 @@ const protectEmail = (email) => {
 
 console.log(protectEmail("mirjana.glisovic@example.com"));
 console.log(protectEmail("mirjana_glisovic@gmail.com"));
+
+// https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php

@@ -71,7 +71,7 @@ console.log(recenica5);
 // 2.	Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" (i veliko i malo).
 // Npr. za string 'Mama ima momu', dobija se rezultat 5.
 
-const recenicaa = "Mama ima Miru i Elma voli Miru";
+const recenicaa = "Mama voli Miru i Elma voli Miru";
 let brojac = 0;
 
 for (let i = 0; i <= recenicaa.length - 1; i++) {
