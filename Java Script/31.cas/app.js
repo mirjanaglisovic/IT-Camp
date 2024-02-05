@@ -59,35 +59,38 @@ function isUndefinedInArray(niz) {
 }
 console.log(isUndefinedInArray(niz3));
 
-// matrix
+//matrix
 
-const multiNiz = [
+const mulitNiz = [
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9],
 ];
-console.log(multiNiz[1][1]);
-console.log(multiNiz[0][0]);
-console.log(multiNiz[2][2]);
 
-for (let i = 0; i < multiNiz.length; i++) {
-  for (let j = 0; j < multiNiz[i].length; j++) {
-    console.log(multiNiz[i][j]);
+console.log(mulitNiz[1][1]);
+console.log(mulitNiz[0][0]);
+console.log(mulitNiz[1][1]);
+
+for (let i = 0; i < mulitNiz.length; i++) {
+  for (let j = 0; j < mulitNiz[i]; j++) {
+    console.log(mulitNiz[i][j]);
   }
 }
 
-function isStringMatrix(matrix) {
+// ako ima bar jedan string vrati true, otherwise false
+function isStringInMatrix(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[i].length; j++) {
-      if (typeof multiNiz[i][j]);
-      {
+      if (typeof matrix[i][j] === "string") {
         return true;
       }
     }
   }
+
   return false;
 }
-console.log(isStringMatrix(multiNiz));
+
+console.log(isStringInMatrix(mulitNiz));
 
 const users = [
   { name: "Suad", surname: "Suljovic" },
