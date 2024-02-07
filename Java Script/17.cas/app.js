@@ -25,7 +25,7 @@ console.log(broj(5, 4));
 
 // const zbirKvadrata = (a, b) => {
 //  return a ** 2 + b ** 2;
-//};
+// };
 // console.log(zbirKvadrata(2, 2));
 
 // Ako je funkcija, ima jedan return onda mozemo izostaviti viticaste zagrade i return keyword.
@@ -33,14 +33,14 @@ console.log(broj(5, 4));
 const zbirKvadrata = (a, b) => a ** 2 + b ** 2;
 console.log(zbirKvadrata(2, 2));
 
-// const zbirKvadrata2 = (a, b) => {
-//   if (b === undefined) {
-//     return a ** 2;
-//   } else {
-//     return a ** 2 + b ** 2;
-//   }
-// };
-// console.log(zbirKvadrata2(2));
+//  const zbirKvadrata2 = (a, b) => {
+//  if (b === undefined) {
+//  return a ** 2;
+//  } else {
+//  return a ** 2 + b ** 2;
+//  }
+//  };
+//  console.log(zbirKvadrata2(2));
 
 // 2.nacin
 

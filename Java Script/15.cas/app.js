@@ -29,17 +29,16 @@ for (let i = 0; i < recenica2.length; i++) {
   brojCifara1++;
 }
 
-const recenica4 = prompt("Danas je bio lep dan");
+const recenica3 = "Ovo sve da bude jedna rec?";
 
-let recenica3 = "";
+let recenica4 = "";
 
-for (i = 0; i < recenica4.length; i++) {
-  if (recenica4[i] === " ") continue;
-  else {
-    recenica3 += recenica3[i];
-  }
-  console.log(recenica3);
+for (let i = 0; i < recenica3.length; i++) {
+  if (recenica3[i] === " ") continue;
+  else recenica4 += recenica3[i];
 }
+console.log(recenica4);
+
 // 2. Napraviti novu recenicu gde ce umesto slova "a" pisati "t".
 // Dok ako se posle slova "a" nalazi slovo "n" pisace "d" umesto "a".
 

@@ -1,16 +1,17 @@
 // Funkcija je blok koda koji se pravi kako bi jedan te isti kod  mogli da izvrsavamo vise puta.
-// Funkcija je kof koji mozemo iznova koristiti, koji pokrece set instrukcija.
+// Funkcija je kod koji mozemo iznova koristiti, koji pokrece set instrukcija.
 // Funkcija se koristi kako bi smo mogli da nas kod bolje organizujemo.
 
 console.log("Hello World");
-//aksdhqskbbh
-//aksdhqskbbh
+//guvelhgefrl
+//guvelhgefrl
 console.log("Hello World");
 //aksdhqskbbh
 //aksdhqskbbh
 console.log("Hello World");
 
-// Jos jedan razlog zbog koje se koriste funkcije jeste to kako bi smo mogli da kreiramo varijable unutar funkcije koje su function-scoped i da te iste varijable nisu dostuplne unutar global-scop-a
+// Jos jedan razlog zbog koje se koriste funkcije jeste to kako bi smo mogli da kreiramo varijable
+// unutar funkcije koje su function-scoped i da te iste varijable nisu dostupne unutar global-scop-a
 
 // Postoje 3 nacina na koje mozemo da deklarisemo funkcije
 
@@ -21,7 +22,7 @@ function printHelloWorld() {
 }
 printHelloWorld();
 
-// Fnction expression (Izrazi funkcije)
+// Function expression (Izrazi funkcije)
 
 const printHelloWorld2 = function () {
   console.log("Ovo je function expression");

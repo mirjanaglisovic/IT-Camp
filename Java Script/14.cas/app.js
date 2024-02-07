@@ -19,6 +19,10 @@ for (let i = 0; i < rec.length; i++) {
   console.log(rec[i]);
 }
 
+// Na osnovu unete recenice od strane korisnika ispisati recenicu tako da svaki karakter ide jedan ispod drugog.
+// Dok ako je neki karakter = "a", neka se ispise broj 5.
+// A u slucaju da je karakter jednak "s", neka se ne ispise nista.
+
 const reci = prompt("Unesite neku recenicu");
 
 for (let i = 0; i < reci.length; i++) {
@@ -38,6 +42,8 @@ console.log("neki string za pretvaranje u velika slova.".toUpperCase());
 
 const recenica3 = "e ko uradi ovo on je mnogo dobar";
 let recenica4 = "";
+
+// Ispisati novu recenicu gde ce svaka rec pocinjati velikim slovom.
 
 for (let i = 0; i < recenica3.length; i++) {
   if (i === 0) {
@@ -69,7 +75,7 @@ for (let i = 0; i < recenica6.length; i++) {
 console.log(recenica5);
 
 // 2.	Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" (i veliko i malo).
-// Npr. za string 'Mama ima momu', dobija se rezultat 5.
+// Npr. za string 'Mama ima mamu', dobija se rezultat 5.
 
 const recenicaa = "Mama voli Miru i Elma voli Miru";
 let brojac = 0;

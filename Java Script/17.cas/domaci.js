@@ -44,7 +44,8 @@ console.log(veciBroj(6, 8));
 console.log(veciBroj(-2, 0));
 
 // Zadatak 4:
-// Napiši funkciju koja prima broj i vraća sumu svih brojeva do tog broja (uključujući taj broj). Na primer, za broj 4, funkcija treba vratiti 1 + 2 + 3 + 4 = 10.
+// Napiši funkciju koja prima broj i vraća sumu svih brojeva do tog broja (uključujući taj broj).
+// Na primer, za broj 4, funkcija treba vratiti 1 + 2 + 3 + 4 = 10.
 
 function suma(broj) {
   let suma = 0;
