@@ -2,69 +2,74 @@
 // map, filter
 
 // ES6 or ECMAscript
-// let. const, arrow, function, array mathods: map, filter, recude...
+// let, const, arrow function, array methods: map, filter, reduce...
 
 const arr = [1, 2, 3, 4, 5, 6];
 
 const arr2 = arr.map((value, index, array) => {
   console.log(value, index, array);
-  return `This is numbrer ${value}, with index ${index}`;
+  return `This is number ${value}, with index ${index}`;
 });
+
 console.log(arr2);
 
-// 1 nacin
+// da napravite novi array sa elementima niza arr: arr element * 2
 
-const arr3 = [1, 2, 3, 4, 5, 6];
-
-const arr4 = arr.map((value, index, array) => {
-  console.log(value, index, array);
-  return value * 2;
-});
-console.log(arr4);
-
-// 2 nacin
-
-const arr5 = arr.map((value) => {
+const arr3 = arr.map((value) => {
   return value * 2;
 });
 
-const arr6 = arr.map((value) => {
-  if (value % 2 === 0) {
+// da napravite novi niz koji iz niza arr sklanja svaki paran broj
+// i menja ga sa undifend
+
+const arr4 = arr.map((value) => {
+  if (value % 2 == 0) {
     return undefined;
+    array;
   } else {
     return value;
   }
 });
-console.log(arr6);
 
-const arr7 = arr.map((value) => {
-  if (value % 2 !== 0) {
+console.log(arr4);
+
+// novi niz koji ima kvadrat svakog neparnog broja iz niza arr
+
+const arr5 = arr.map((value) => {
+  if (value % 2 != 0) {
     return value * value;
   } else {
     return value;
   }
 });
+
+console.log(arr5);
+
+const arr6 = "This is an created from a string".split(" ");
+
+// napraviti novi niz koji sve stringove iz nica arr6 pretvara u uppercase
+
+const arr7 = arr6.map((value) => value.toUpperCase());
+
 console.log(arr7);
 
-const arr8 = "This is a an array created from a string".split(" ");
-
-console.log(arr8);
-
-const arr9 = arr8.map((value) => value.toUpperCase());
-
-const arr10 = arr.filter((value) => {
-  //   if (value % 2 === 0) {
+const arr8 = arr.filter((value) => {
+  //   if (value % 2 == 0) {
   //     return false;
   //   }
-  //   return true;
-  return value % 2 === 0;
-});
-console.log(arr10);
 
-const arr11 = arr8.filter((value) => {
+  //   return true;
+
+  return value % 2 !== 0;
+});
+
+// skloniti iz niza arr6 sve elemente koji imaju slovo a
+
+const arr9 = arr6.filter((value) => {
   return !value.includes("a");
 });
-console.log(arr11);
+
+console.log(arr9);
 
 const mockData = [
   {
@@ -93,30 +98,54 @@ const mockData = [
   },
 ];
 
-const userName = mockData.map((value) => {
+// napravite niz samo imena
+
+const userNames = mockData.map((value) => {
   return value.name;
 });
-console.log(userName);
 
-const userName1 = mockData.map((value) => {
+// napravite niz koji ima ime i prezime u stringu
+
+const userNamesAndSurnames = mockData.map((value) => {
   return value.name + " " + value.surname;
 });
-console.log(userName1);
 
-const userName2 = mockData.filter((value) => {
+console.log(userNamesAndSurnames);
+
+// napraviti niz svih korisnika koji su stariji od 24
+
+const olderThen24 = mockData.filter((value) => {
   return value.age > 24;
 });
 
-const userName3 = mockData.filter((value) => {
-  switch (value.name[0].toLowerCase()) {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
+// niz svih korsinika cije prvo slovo imena je samoglasnik a,e,i,o,u
+
+const newArray = mockData.filter((value) => {
+  //   switch (value.name[0].toLowerCase()) {
+  //     case "a":
+  //     case "e":
+  //     case "i":
+  //     case "o":
+  //     case "u":
+  //       return true;
+  //       break;
+  //     default:
+  //       return false;
+  //   }
+
+  switch (["a", "e", "i", "o", "u"].includes(value.name[0].toLowerCase())) {
+    case true:
       return true;
     default:
       return false;
   }
 });
-console.log(userName3);
+
+console.log(newArray);
+
+// napravati search functionality gde na osnovu variable search
+// filtriramo array po imenu
+
+const search = "A";
+
+const found = mockData.filter((value) => {});
