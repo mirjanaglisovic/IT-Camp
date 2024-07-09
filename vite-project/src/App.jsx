@@ -1,35 +1,151 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState } from "react";
+import "./App.css";
+// import MySentence from "./components/MySentence/MySentence";
+// import Greeting from "./components/Greeting/Greeting";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import Hotels from "./pages/Hotels/Hotels";
+import Hotel from "./pages/Hotel/Hotel";
+import Home from "./pages/Home/Home";
+import Teams from "./pages/Teams/Teams";
+import Quotes from "./pages/Quotes/Quotes";
+import Auth from "./pages/Auth/Auth";
+import { useContext, useEffect } from "react";
+import { AppContext } from "./context/AppContext";
+import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { setLoggedInUser } = useContext(AppContext);
+  // const [count, setCount] = useState(0);
+  // const [arr, setArr] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
+  // const arr = []
+  // for (let i = 1; i <= 10; i++) {
+  //   arr.push(i);
+  // }
+
+  // const reverseArr = () => {
+  //   const _arr = [...arr];
+  //   const reversed = _arr.reverse();
+  //   setArr(reversed);
+  // };
+
+  // const osoba = {
+  //   name: "Jakub",
+  //   age: 17,
+  // };
+
+  // destructuring objekta
+  // const { name } = osoba;
+  // console.log(name);
+  // CEMU JE JEDNAKO name?
+  // name === osoba.name
+
+  // const osobaNiz = ["Kanita", 19];
+  // destructuring niza
+  // const [ime] = osobaNiz;
+  // console.log(ime);
+
+  // const a = 5
+  // a++ === a = a + 1
+  // a+1
+  // setCount((prevValue) => prevValue++) NIJE KOREKTNO
+  // setCount((prevValue) => prevValue + 3)
+
+  useEffect(() => {
+    const localLoggedInUser = localStorage.getItem("loggedInUser");
+    if (localLoggedInUser) {
+      setLoggedInUser(JSON.parse(localLoggedInUser));
+    } else {
+      setLoggedInUser(null);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+    // <React.Fragment>
+    <div className="app">
+      {/* <Greeting appName="Lyntel" fullName="Dzenan Kosuta" /> */}
+      {/* <div className="card">
+        <button onClick={() => setCount((prevValue) => prevValue - 1)}>
+          decrease count {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <button onClick={() => setCount((prevValue) => prevValue + 1)}>
+          increase count {count}
+        </button>
+      </div> */}
+      {/* <button onClick={reverseArr}>Change order</button> */}
+      {/* Ipravno i sa callback */}
+      {/* <button onClick={() => reverseArr()}>Change order</button>
+      {arr.map((num, index) => (
+        <div
+          key={index}
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
+          <p>{num}. </p>
+          <MySentence number={num} />
+        </div>
+      ))} */}
+      <Navbar />
+      <main className="main">
+        <Routes>
+          {/* {!localStorage.getItem("loggedInUser") ? (
+            <Route path="/auth" element={<Auth />} />
+          ) : (
+            navigate("/")
+          )} */}
+          <Route
+            path="/auth"
+            element={
+              !localStorage.getItem("loggedInUser") ? <Auth /> : <Home />
+            }
+          />
+          <Route
+            path="/"
+            element={
+              <ProtectedRoute>
+                <Home />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/hotels"
+            element={
+              <ProtectedRoute>
+                <Hotels />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/hotels/:id"
+            element={
+              <ProtectedRoute>
+                <Hotel />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/teams"
+            element={
+              <ProtectedRoute>
+                <Teams />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/quotes"
+            element={
+              <ProtectedRoute>
+                <Quotes />
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+    // </React.Fragment>
+  );
 }
 
-export default App
+export default App;

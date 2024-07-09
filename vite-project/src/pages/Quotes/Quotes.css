@@ -1,0 +1,15 @@
+.quotes {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 1em;
+}
+
+.pagination-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+}
