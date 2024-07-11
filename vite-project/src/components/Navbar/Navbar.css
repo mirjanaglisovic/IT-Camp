@@ -18,7 +18,7 @@ header {
 .logout {
   position: absolute;
   right: 40px;
-  top: 41px;
+  top: 33px;
 }
 
 .logo {
@@ -31,6 +31,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+
   gap: 2em;
 }
 
@@ -38,7 +39,7 @@ header {
   display: flex;
   gap: 2em;
   list-style: none;
-  padding-top: 0.5em;
+  padding-bottom: 11px;
 }
 
 .logo-text {
